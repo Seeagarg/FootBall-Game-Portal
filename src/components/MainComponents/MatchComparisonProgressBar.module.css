@@ -1,0 +1,28 @@
+.combined_progress_bar_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.combined_progress_bar {
+    display: flex;
+    height: 30px;
+    width: 80%;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #f2f2f2ad;
+  }
+  
+  .progress_segment_container_end{
+    width: 50%;
+    display: flex;
+    overflow: hidden;
+    justify-content: flex-end;
+  }
+
+  .progress_segment_container_start{
+    width: 50%;
+    display: flex;
+    overflow: hidden;
+    justify-content: flex-start;
+  }

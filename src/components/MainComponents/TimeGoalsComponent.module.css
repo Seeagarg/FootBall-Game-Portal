@@ -1,0 +1,49 @@
+.container {
+    width: 100%;
+    height: 20px;
+  }
+  
+  .line {
+    width: 30px;
+    height: 3px;
+    background-color: rgba(239, 68, 68,1);
+    position: relative;
+    left: -35px;
+    animation: moveLine 2s linear infinite;
+  }
+  
+  @keyframes moveLine {
+    0% {
+      transform: translateX(0px);
+    }
+    50% {
+      transform: translateX(70px) rotateY(45deg);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  @media screen and (max-width:800px) {
+    .line {
+        width: 30px;
+        height: 3px;
+    background-color: rgba(239, 68, 68,1);
+
+        position: relative;
+        left: -25px;
+        animation: moveLine 2s linear infinite;
+      }
+      @keyframes moveLine {
+        0% {
+          transform: translateX(0px);
+        }
+        50% {
+          transform: translateX(50px) rotateY(45deg);
+        }
+        100% {
+          transform: translateX(0);
+        }
+      }
+  }
+  

@@ -1,0 +1,38 @@
+.combined_progress_bar {
+    display: flex;
+    height: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #f2f2f2;
+  }
+  
+  .progress_segment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .progress_segment_end {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .progress_segment_container{
+    width: 50%;
+  }
+
+  .progress_segment_start {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+  }

@@ -1,0 +1,6 @@
+.carousel_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
